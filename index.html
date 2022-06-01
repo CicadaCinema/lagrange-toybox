@@ -15,13 +15,12 @@
 	<script src="https://www.geogebra.org/apps/deployggb.js"></script>
 	
 	<script>
-		alert(
-`1) Select "Tools" in the sidebar.
+		const usage = `1) Select "Tools" in the sidebar.
 2) Under "Basic Tools" select "Point".
 3) Click anywhere on the graph to add a point. Continue adding points by clicking on an empty area of the graph, or click and drag an existing point to move it.
 
-A single polynomial should be plotted, which passes through all the points.`
-);
+A single polynomial should be plotted, which passes through all the points.`;
+		setTimeout(function() { alert(usage); }, 1);
 	</script>
 </head>
 
